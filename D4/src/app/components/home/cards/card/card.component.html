@@ -1,0 +1,17 @@
+<div class="card">
+  <img [src]="imageSource" class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">Food</h5>
+    <p class="card-text">
+      {{ cardText }}
+    </p>
+    <span class="btn btn-primary" (click)="showDetails()"
+      >Show More Details</span
+    >
+    @if (detailsBool) {
+    <p class="details mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, voluptates.</p>
+    } @else {
+    <p class="details mt-3"></p>
+    }
+  </div>
+</div>

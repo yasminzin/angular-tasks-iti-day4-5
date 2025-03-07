@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg bg-body-white p-3 bg-white">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">All Food</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['/home']" [routerLinkActive]="['text-danger']" [routerLinkActiveOptions]="{exact:true}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['/products']" [routerLinkActive]="['text-danger']" [routerLinkActiveOptions]="{exact:true}">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/products', 0, 'edit']" [routerLinkActive]="['text-danger']" [routerLinkActiveOptions]="{exact:true}">Add To Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/account']" [routerLinkActive]="['text-danger']" [routerLinkActiveOptions]="{exact:true}">Account</a>
+        </li>
+      </ul>
+      <form class="d-flex w-50" role="welcome">
+        <!-- braces indicate event binding when write in input it will store this in property in component -->
+        <!-- after storing it, it will be updated automatically in {{ welcomeMessage }} with interpolation -->
+        <!-- Angular Handles Synchronization: ensuring that any changes in the input field reflect in the component and vice versa -->
+        <input
+          [(ngModel)]="WelcomeMessage"
+          name="WelcomeMessage"
+          class="form-control me-2"
+          type="welcome"
+          placeholder="Write Your Name"
+          aria-label="Welcome"
+        />
+        <button class="btn btn-danger w-75 subscribe-message" type="submit">
+          Welcome, {{ WelcomeMessage }}
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>

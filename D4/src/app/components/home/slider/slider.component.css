@@ -1,0 +1,43 @@
+img {
+  object-fit: cover;
+  height: 80vh;
+}
+
+.carousel-caption {
+  bottom: 20%;
+}
+
+h1 {
+  color: #ff5700;
+}
+
+
+.slider-content {
+  top: 40%;
+}
+
+.active {
+  display: block !important;
+}
+
+.slider-content .icon {
+  cursor: pointer;
+}
+
+.slider-content .icon i:hover {
+  color: #1b1b1be0 !important;
+}
+
+.slider-content .indicators span {
+  width: 15px;
+  height: 15px;
+  background-color: #333333a1;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.slider-content .indicators .active-indicator {
+  background-color: #333;
+}
+

@@ -1,0 +1,26 @@
+.container-fluid,
+.input-group-text {
+  background-color: #353230;
+}
+
+.input-group-text {
+  cursor: pointer;
+}
+
+.input-group-text:hover {
+  background-color: #504541;
+}
+
+.container-fluid * {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0 5px;
+}
+
+ul li {
+  padding: 2px 0;
+}
+

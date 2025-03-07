@@ -1,0 +1,22 @@
+<div class="row m-0">
+  <div class="col-6 offset-3">
+    <div>
+      <img src="" alt="" />
+    </div>
+    <h1>Product Details : {{ productDetails[0].id }}</h1>
+    <p class="lead fs-3 mt-3">Product Name : {{ productDetails[0].name }}</p>
+    <p class="lead fs-3 mt-3">Product price : {{ productDetails[0].price }}</p>
+    @if(productDetails[0].quantity > 0) {
+    <p class="lead fs-3 mt-3">
+      Product Quantity : {{ productDetails[0].quantity }}
+    </p>
+    } @else {
+    <p class="lead fs-3 mt-3">
+      Product Quantity : Sold Out
+    </p>
+    }
+    <button class="mt-4 btn btn-danger" [routerLink]="['/products']">
+      Back to Products
+    </button>
+  </div>
+</div>
