@@ -1,0 +1,42 @@
+<aside class="container-fluid aside">
+  <div class="row g-5">
+    <div class="col-2 sidebar">
+      <ul class="p-3 mt-3">
+        <li>
+          <p class="mx-auto border rounded-pill w-50 text-center p-3">
+            <i class="fa-solid fa-user-tie fs-1 text-secondary"></i>
+          </p>
+          <h6 class="fw-bold">Admin Dashboard</h6>
+        </li>
+        <li>
+          <span class="pe-2"><i class="fa-solid fa-house"></i></span>
+          <a [routerLink]="['/home']"  [routerLinkActive]="['text-dark']">Home</a>
+        </li>
+        <li>
+          <span class="pe-2"><i class="fa-solid fa-bars"></i></span>
+          <a [routerLink]="['/menu']"  [routerLinkActive]="['text-dark']">Menu</a>
+        </li>
+        <li>
+          <span class="pe-2"><i class="fa-solid fa-layer-group"></i></span>
+          <a [routerLink]="['/categories']"  [routerLinkActive]="['text-dark']">Categories</a>
+        </li>
+        <li>
+          <span class="pe-2"><i class="fa-solid fa-plus"></i></span>
+          <a [routerLink]="['/menu', 0, 'edit']" [routerLinkActive]="['text-dark']">Add to Menu</a>
+        </li>
+        <li>
+          <span class="pe-2"><i class="fa-solid fa-user"></i></span>
+          <a [routerLink]="['/account']"  [routerLinkActive]="['text-dark']">Account</a>
+        </li>
+      </ul>
+      <div class="upgrade rounded-3 p-3 text-light">
+        <div class="mb-3">Upgrade your account to get free voucher</div>
+        <button class="btn btn-outline-light">Updrade</button>
+      </div>
+    </div>
+    <div class="col-7">
+      <router-outlet></router-outlet>
+    </div>
+    <app-user class="col-3"></app-user>
+  </div>
+</aside>

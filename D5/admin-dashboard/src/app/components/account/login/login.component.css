@@ -1,0 +1,14 @@
+button {
+  background-color: #ff5700;
+  color: #fff;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff6c22;
+  color: #fff;
+}
+
+label {
+  color: #1B1F3A;
+}

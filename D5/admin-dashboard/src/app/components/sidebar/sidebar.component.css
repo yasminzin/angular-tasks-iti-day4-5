@@ -1,0 +1,25 @@
+.sidebar {
+  border-right: 2.5px rgb(231, 231, 231) solid;
+  height: 100%;
+}
+
+.sidebar ul li {
+  padding: 20px 0;
+  padding-left: 10px;
+}
+
+.sidebar ul li a {
+  color: grey;
+}
+
+.sidebar ul li i {
+  color: grey;
+}
+
+.sidebar ul li h6 {
+  color: #ff5700;
+}
+
+.upgrade {
+  background: linear-gradient(135deg, #ff5700, #ff3c00, #ff7a00);
+}

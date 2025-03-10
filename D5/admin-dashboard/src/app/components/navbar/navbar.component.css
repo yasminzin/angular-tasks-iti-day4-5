@@ -1,0 +1,60 @@
+/* Navbar */
+nav {
+  background-color: #1B1F3A;
+  width: 100%;
+  height: 65px;
+  position: sticky;
+  top: 0%;
+  z-index: 3000;
+}
+
+/* Input */
+input {
+  background-color: #292f56;
+  border: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  box-shadow: none;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+/* Dropdown */
+.dropdown-item {
+  transition: 0.4s;
+}
+
+.dropdown-item:hover {
+  padding-left: 20px;
+}
+
+/* User */
+.user-nav-item {
+  background-color: #292f56;
+  padding: 0 8px;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Sidebar */
+app-sidebar {
+  width: 100%;
+  height: 100%;
+}
+
+/* Container Layout */
+.container-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+

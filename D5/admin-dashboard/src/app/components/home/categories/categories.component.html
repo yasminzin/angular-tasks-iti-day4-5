@@ -1,0 +1,11 @@
+<h4 class="mb-3">Category</h4>
+@for (category of categories; track $index) {
+<div class="col-3 mb-3">
+  <div class="border rounded p-3">
+    <div class="mx-auto text-center pb-2">
+      <span><i class="fa-solid fa-burger fs-3"></i></span>
+    </div>
+    <h6 class="text-center">{{ category.name }}</h6>
+  </div>
+</div>
+}

@@ -1,0 +1,83 @@
+<h4 class="mt-5">{{ productId === "0" ? "Add Product" : "Edit Product" }}</h4>
+<form class="mt-5 mx-3" (submit)="productHandler()" [formGroup]="productForm">
+  <div class="mb-3">
+    <label for="ProductName" class="form-label">Product Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="ProductName"
+      aria-describedby="ProductNameHelp"
+      required
+      formControlName="name"
+    />
+    @if (getName.touched) { @if (getName.hasError('required')) {
+    <div class="form-text text-danger lead">Product Name is Required</div>
+    } @if (getName.hasError('minlength')) {
+    <div class="form-text text-danger lead">
+      Product Name length must be more than 2 letters
+    </div>
+    } }
+  </div>
+  <div class="mb-3">
+    <label for="ProductCategory" class="form-label">Product Category</label>
+    <input
+      type="text"
+      class="form-control"
+      id="ProductCategory"
+      required
+      formControlName="category"
+    />
+    @if (getCategory.touched) { @if (getCategory.hasError('required')) {
+    <div class="form-text text-danger lead">Product Category is Required</div>
+    } }
+  </div>
+  <div class="mb-3">
+    <label for="ProductPrice" class="form-label">Product Price</label>
+    <input
+      type="number"
+      class="form-control"
+      id="ProductPrice"
+      required
+      formControlName="price"
+    />
+    @if (getPrice.touched) { @if (getPrice.hasError('required')) {
+    <div class="form-text text-danger lead">Product Price is Required</div>
+    } @if (getPrice.hasError('min')) {
+    <div class="form-text text-danger lead">
+      Product Price must not be less than 5
+    </div>
+    } }
+  </div>
+  <div class="mb-3">
+    <label for="ProductQuantity" class="form-label">Product Quantity</label>
+    <input
+      type="number"
+      class="form-control"
+      id="ProductQuantity"
+      required
+      formControlName="quantity"
+    />
+    @if (getQuantity.touched) { @if (getQuantity.hasError('required')) {
+    <div class="form-text text-danger lead">Product Quantity is Required</div>
+    } @if (getQuantity.hasError('pattern')) {
+    <div class="form-text text-danger lead">
+      Product Quantity must be just numbers
+    </div>
+    } }
+  </div>
+  <div class="mb-3">
+    <label for="ProductImage" class="form-label">Product Image</label>
+    <input
+      type="file"
+      class="form-control"
+      id="ProductImage"
+      required
+      formControlName="image"
+    />
+    @if (getImage.touched) { @if (getImage.hasError('required')) {
+    <div class="form-text text-danger lead">Product Image is Required</div>
+    } }
+  </div>
+  <p>{{ productForm.value | json }}</p>
+  <button type="submit" class="btn mt-2 px-4">{{ productId === "0" ? "Add Product" : "Edit Product" }}</button>
+</form>

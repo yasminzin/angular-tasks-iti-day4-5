@@ -1,0 +1,44 @@
+.user-mng {
+  background-color: #ff55002e;
+  /* border: 1.5px #ff5700 solid; */
+}
+
+.user-mng h5 {
+  color: #e24b00
+}
+
+.user-mng .balance-container {
+  background: linear-gradient(135deg, #ff5700, #ff3c00, #ff7a00);
+}
+
+.user-mng .user button {
+  border: 2px  #ff5700 solid;
+  color: #ff5700;
+  transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.user-mng .user button:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #ff5700, #ff3c00, #ff7a00);
+}
+
+.user-mng ul li a {
+  color: rgb(73, 73, 73);
+}
+
+.user-mng ul li {
+  padding: 5px 0;
+}
+
+.user-mng ul {
+  padding-left: 3px;
+}
+
+a {
+  transition: 0.2s !important;
+}
+
+a:hover {
+  color: rgb(162, 162, 162) !important;
+}
+

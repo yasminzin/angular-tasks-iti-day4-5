@@ -1,0 +1,170 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Cheese Burger",
+      "price": 5.99,
+      "category": "Burgers",
+      "quantity": 20,
+      "image": "https://source.unsplash.com/400x300/?cheeseburger"
+    },
+    {
+      "id": "2",
+      "name": "Chicken Sandwich",
+      "price": 6.49,
+      "category": "Sandwiches",
+      "quantity": 15,
+      "image": "https://source.unsplash.com/400x300/?chicken-sandwich"
+    },
+    {
+      "id": "3",
+      "name": "French Fries",
+      "price": 2.99,
+      "category": "Fries",
+      "quantity": 30,
+      "image": "https://source.unsplash.com/400x300/?fries"
+    },
+    {
+      "id": "4",
+      "name": "Coca Cola",
+      "price": 1.99,
+      "category": "Cold Drinks",
+      "quantity": 50,
+      "image": "https://source.unsplash.com/400x300/?coca-cola"
+    },
+    {
+      "id": "5",
+      "name": "Chocolate Cake",
+      "price": 4.49,
+      "category": "Desserts",
+      "quantity": 10,
+      "image": "https://source.unsplash.com/400x300/?chocolate-cake"
+    },
+    {
+      "id": "6",
+      "name": "Grilled Chicken Burger",
+      "price": 7.99,
+      "category": "Burgers",
+      "quantity": 18,
+      "image": "https://source.unsplash.com/400x300/?grilled-chicken-burger"
+    },
+    {
+      "id": "7",
+      "name": "Strawberry Milkshake",
+      "price": 3.99,
+      "category": "Cold Drinks",
+      "quantity": 25,
+      "image": "https://source.unsplash.com/400x300/?strawberry-milkshake"
+    },
+    {
+      "id": "8",
+      "name": "Onion Rings",
+      "price": 3.49,
+      "category": "Fries",
+      "quantity": 20,
+      "image": "https://source.unsplash.com/400x300/?onion-rings"
+    },
+    {
+      "id": "9",
+      "name": "Ice Cream Sundae",
+      "price": 3.99,
+      "category": "Desserts",
+      "quantity": 12,
+      "image": "https://source.unsplash.com/400x300/?ice-cream-sundae"
+    },
+    {
+      "id": "10",
+      "name": "Spicy Chicken Sandwich",
+      "price": 6.99,
+      "category": "Sandwiches",
+      "quantity": 14,
+      "image": "https://source.unsplash.com/400x300/?spicy-chicken-sandwich"
+    },
+    {
+      "id": "11",
+      "name": "Double Beef Burger",
+      "price": 8.99,
+      "category": "Burgers",
+      "quantity": 22,
+      "image": "https://source.unsplash.com/400x300/?double-burger"
+    },
+    {
+      "id": "12",
+      "name": "BBQ Chicken Sandwich",
+      "price": 7.49,
+      "category": "Sandwiches",
+      "quantity": 16,
+      "image": "https://source.unsplash.com/400x300/?bbq-chicken-sandwich"
+    },
+    {
+      "id": "13",
+      "name": "Mushroom Swiss Burger",
+      "price": 7.99,
+      "category": "Burgers",
+      "quantity": 15,
+      "image": "https://source.unsplash.com/400x300/?mushroom-burger"
+    },
+    {
+      "id": "14",
+      "name": "Philly Cheesesteak Sandwich",
+      "price": 8.49,
+      "category": "Sandwiches",
+      "quantity": 13,
+      "image": "https://source.unsplash.com/400x300/?philly-cheesesteak"
+    },
+    {
+      "id": "15",
+      "name": "Crispy Fish Sandwich",
+      "price": 6.99,
+      "category": "Sandwiches",
+      "quantity": 10,
+      "image": "https://source.unsplash.com/400x300/?fish-sandwich"
+    },
+    {
+      "id": "16",
+      "name": "Classic Beef Burger",
+      "price": 7.49,
+      "category": "Burgers",
+      "quantity": 17,
+      "image": "https://source.unsplash.com/400x300/?classic-burger"
+    },
+    {
+      "id": "17",
+      "name": "Turkey Club Sandwich",
+      "price": 7.99,
+      "category": "Sandwiches",
+      "quantity": 12,
+      "image": "https://source.unsplash.com/400x300/?turkey-club"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "John12345",
+      "image": "source.source"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "Jane98765",
+      "image": "source.source"
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "email": "michaelj@example.com",
+      "password": "Mike2024",
+      "image": "source.source"
+    }
+  ],
+  "categories": [
+    { "name": "Burgers", "image": "source.source" },
+    { "name": "Sandwiches", "image": "source.source" },
+    { "name": "Fries", "image": "source.source" },
+    { "name": "Cold Drinks", "image": "source.source" },
+    { "name": "Desserts", "image": "source.source" }
+  ]
+}
