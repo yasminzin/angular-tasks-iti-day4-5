@@ -9,12 +9,12 @@
       "id": "1"
     },
     {
-      "id": "2",
-      "name": "Chicken Sandwich",
-      "price": 6.49,
+      "name": "Chicken Sandwich edit",
       "category": "Sandwiches",
-      "quantity": 15,
-      "image": "https://source.unsplash.com/400x300/?chicken-sandwich"
+      "price": "6.49",
+      "quantity": "15",
+      "image": "C:\\fakepath\\Screenshot (138).png",
+      "id": "2"
     },
     {
       "id": "3",
@@ -119,14 +119,6 @@
       "category": "Sandwiches",
       "quantity": 10,
       "image": "https://source.unsplash.com/400x300/?fish-sandwich"
-    },
-    {
-      "id": "16",
-      "name": "Classic Beef Burger",
-      "price": 7.49,
-      "category": "Burgers",
-      "quantity": 17,
-      "image": "https://source.unsplash.com/400x300/?classic-burger"
     },
     {
       "id": "17",
